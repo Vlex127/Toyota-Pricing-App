@@ -34,8 +34,8 @@ This application provides a user-friendly interface for calculating the total co
   - Import Duty % (Text box - numeric input)
 
 - **Optional Facilities**:
-  - Air Conditioning (Checkbox - ₦50,000)
-  - Roof Rack (Checkbox - ₦150,000)
+  - Air Conditioning (Checkbox - ₦75,000)
+  - Open Roof (Checkbox - ₦50,000)
 
 - **Control Buttons**:
   - Calculate: Performs price calculation
@@ -43,31 +43,34 @@ This application provides a user-friendly interface for calculating the total co
   - Info: Displays team member information
 
 - **Display**:
-  - Result label showing final price in Euro format
+  - Result label showing final price in Naira format
 
 ## Pricing Logic
 
 ### Base Pricing
-- **Base Price**: ₦5,000,000
+- **Small engines (≤2000cc)**: ₦1,500,000
+- **Medium engines (≤3000cc)**: ₦2,500,000
+- **Large engines (>3000cc)**: ₦4,000,000
 
 ### Engine Size Adjustment
-- If engine size > 2.0L: + ₦500,000
+- Base price determined by engine size categories
 
 ### Year Adjustment
-- If manufacturing year < 2015: - ₦200,000
+- If manufacturing year ≥ 2020: + ₦500,000
+- If manufacturing year < 2015: - ₦300,000
 
 ### Optional Facilities
-- Air Conditioning: + ₦50,000
-- Roof Rack: + ₦150,000
+- Air Conditioning: + ₦75,000
+- Open Roof: + ₦50,000
 
 ### Import Duty
-- Applied as percentage of total cost after all other adjustments
+- Applied as percentage of base price after all other adjustments
 
 ## Calculation Formula
 
 ```
-Total Cost = Base Price + Engine Adjustment + Year Adjustment + Facilities Cost
-Final Price = Total Cost + (Total Cost × Import Duty % / 100)
+Total Cost = Base Price + Year Adjustment + Facilities Cost
+Final Price = Total Cost + (Base Price × Import Duty % / 100)
 ```
 
 ## Installation and Usage
@@ -88,9 +91,9 @@ Final Price = Total Cost + (Total Cost × Import Duty % / 100)
 
 ## Development Team
 
-This application was developed by CSC 207 Group 3, consisting of 34 students:
+This application was developed by CSC 207 Group 3, consisting of **39 students**:
 
-**Page 1 of 2:**
+**Page 1 of 3:**
 - Eniola Uthman Oluwadarasimi (240591081)
 - EZE C.O (240591082)
 - Ezebube Chizitelum Odirachukwunma (240591083)
@@ -109,8 +112,6 @@ This application was developed by CSC 207 Group 3, consisting of 34 students:
 - Hassan Mubarak Atanda (240591097)
 - Segun Ganiu Hassan (240591098)
 - Idowu Fawaz Olawunmi (240591101)
-
-**Page 2 of 2:**
 - Idowu Matthew (240591102)
 - Ikechukwu Queen (240591103)
 - Inedu Esther Ogaicha (240591104)
