@@ -117,7 +117,7 @@ This application was developed by CSC 207 Group 3, consisting of **39 students**
 - Inedu Esther Ogaicha (240591104)
 - Iniotuh Greatest (240591105)
 - Iwakun Oluwasegun Omotojumi (240591106)
-- Iwuno Vincent ChukwuEbuka (240591107)
+- Iwuno Vincent ChukwuEbuka (240591107)DEVELOPER AND GROUP LEADER 
 - Iyaniwura Olabamiji George (240591108)
 - Jawando Fuad Olamide (240591109)
 - Jeremiah David Preye (240591110)
