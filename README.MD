@@ -95,7 +95,7 @@ This application was developed by CSC 207 Group 3, consisting of **39 students**
 
 **Page 1 of 3:**
 - Eniola Uthman Oluwadarasimi (240591081)
-- EZE C.O (240591082)
+- EZE Chinemerem Oluwasemilore  (240591082)
 - Ezebube Chizitelum Odirachukwunma (240591083)
 - Ezeh Johncharles (240591084)
 - Olawale Anuoluwapo Ezekiel (240591085)
@@ -117,7 +117,7 @@ This application was developed by CSC 207 Group 3, consisting of **39 students**
 - Inedu Esther Ogaicha (240591104)
 - Iniotuh Greatest (240591105)
 - Iwakun Oluwasegun Omotojumi (240591106)
-- Iwuno Vincent ChukwuEbuka (240591107)
+- Iwuno Vincent ChukwuEbuka (240591107) DEVELOPER AND GROUP LEADEAR 
 - Iyaniwura Olabamiji George (240591108)
 - Jawando Fuad Olamide (240591109)
 - Jeremiah David Preye (240591110)
